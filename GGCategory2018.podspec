@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "GGCategory2018"
-  s.version      = "0.0.1"
+  s.version      = "0.0.3"
   s.summary      = "GGCategory2018 provide developers with quick and easy service."
 
   # This description is used to generate tags and improve search results.
@@ -25,9 +25,11 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                基本控件的分类
+        GGCategory2018 provide developers with quick and easy service.
+        基本控件的分类,便捷设置UIView的frame,可直接使用view.x = 10.0;view.y = 100.0;语法
                    DESC
-  s.homepage     = "http://github.com/KingLjk/GGCategory2018"
+
+  s.homepage     = "https://github.com/KingLjk/GGCategory2018"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -79,7 +81,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://github.com/KingLjk/GGCategory2018.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/KingLjk/GGCategory2018.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
