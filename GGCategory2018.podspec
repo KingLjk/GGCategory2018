@@ -26,6 +26,7 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
         GGCategory2018 provide developers with quick and easy service.
+GGCategory2018 provide developers with quick and easy service.
         基本控件的分类,便捷设置UIView的frame,可直接使用view.x = 10.0;view.y = 100.0;语法
                    DESC
 
